@@ -1,0 +1,143 @@
+section,
+header,
+nav,
+article,
+asideб
+footer {
+    display: block;
+}
+
+
+
+.left,
+.content {
+    position: absolute;
+    overflow: auto;
+    padding: 10px;
+}
+
+.header {
+    height: 80px;
+    background-color: beige;
+    border-bottom: 2px solid #7b5427;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+}
+
+.content {
+    top: 82px;
+    left: 180px;
+    bottom: 0;
+    right: 0;
+}
+
+.left {
+    width: 150px;
+    background-color: #ecf5e4;
+    border-right: 1px solid #231f20;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.block {
+    background-color: azure;
+    position: relative;
+    top: 20px;
+    left: 50px;
+
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 2px solid #426daf;
+    background-color: #33adff;
+}
+
+.menu a {
+    background-color: #ecf5e4;
+    color: #777;
+    font-weight: 400;
+    /* border-bottom: 1px solid #777; */
+    /* border-left: 5px solid #33adff; */
+    display: inline-block;
+    padding: 5px 10px;
+    width: 100px;
+
+
+}
+
+.menu li {
+    padding: 1px;
+    display: inline;
+}
+
+.menu a:hover {
+    background-color: yellow;
+    color: red;
+    border-left: 5px soli #3333ff;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+
+}
+
+.content-block {
+    border: 2px solid blue;
+}
+
+.contnt-block-auto {
+    width: 200px;
+    background-color: #7cc690;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container-inline {
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.content-inline-block {
+    display: inline-block;
+    border: 2px solid red;
+    }
+
+.rounded {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #777;
+}
+
+.on-bg {
+    background-image: url("../images/python.png");
+    height: 200px;
+    background-repeat: repeat-x;
+}
+
+.on-gradient{
+    background: linear-gradient(to  top, #2f716b, white);
+    height: 200px;
+}
